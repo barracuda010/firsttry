@@ -47,11 +47,13 @@ html {
 .logo {
   display: flex;
 }
+
 .home {
   color: #cc0000;
   font-size: 20px;
   font-weight: 900;
 }
+
 .made {
   font-size: 20px;
   color: #ffffff;
@@ -92,6 +94,7 @@ html {
   body {
     overflow-x: hidden;
   }
+
   .container {
     max-width: 767px;
     margin: 0 auto;
@@ -146,7 +149,7 @@ html {
 
   /* Header Content */
   .header-content {
-    padding: 50px 0 202px 0;
+    padding: 110px 0 60px 0;
   }
 
   .header-content_text {
@@ -211,6 +214,7 @@ html {
   .skills {
     display: none;
   }
+
   /* Achievements */
   .achievements {
     background: #10c9c3;
@@ -222,6 +226,7 @@ html {
     font-weight: 700;
     margin-bottom: 10px;
   }
+
   .ach-items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -249,6 +254,7 @@ html {
     font-size: 17px;
     padding-bottom: 15px;
   }
+
   /* Work */
   .work {
     margin: 0 auto;
@@ -272,6 +278,7 @@ html {
     object-fit: cover;
     display: block;
   }
+
   /* Work Process */
   .work-process_text {
     max-width: 250px;
@@ -286,6 +293,7 @@ html {
     width: 100%;
     height: 100%;
   }
+
   /* Services */
 
   .services {
@@ -300,6 +308,7 @@ html {
     grid-gap: 20px;
     text-align: center;
   }
+
   .service-title {
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
@@ -312,6 +321,7 @@ html {
     font-weight: 500;
     color: #787878;
   }
+
   /*  testimonials*/
 
   .testimonials {
@@ -365,6 +375,7 @@ html {
     height: 10px;
     width: 10px;
   }
+
   /* Clients */
   .clients {
     padding: 15px 0 15px 0;
@@ -373,30 +384,36 @@ html {
     justify-items: center;
     grid-gap: 10px;
   }
+
   .last-client {
     display: none;
   }
+
   /* Need Project */
   .need-project {
     margin: 0 auto;
     background: #f5f5f5;
     padding: 50px 0 50px 0;
   }
+
   .contact-form {
     width: 280px;
   }
+
   .form-things {
     width: 280px;
     height: 50px;
     margin-bottom: 15px;
     border: none;
   }
+
   .form-title {
     width: 280px;
     height: 50px;
     margin-bottom: 15px;
     border: none;
   }
+
   .comments {
     width: 280px;
     height: 100px;
@@ -408,6 +425,7 @@ html {
   .comments::placeholder {
     padding-top: 9px;
   }
+
   .form-btn {
     display: block;
     margin: 0 auto;
@@ -426,6 +444,7 @@ html {
     background-color: #81ebe7;
     transition: ease-in-out 0.2s;
   }
+
   /* Footer */
   .footer {
     background: #141414;
@@ -441,6 +460,7 @@ html {
     color: #bcbcbc;
     margin-right: 30px;
   }
+
   .company-name {
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
@@ -452,6 +472,7 @@ html {
     font-size: 15px;
     color: #bcbcbc;
   }
+
   /* Burger Footer */
   .burger-footer {
     display: flex;
@@ -460,16 +481,19 @@ html {
     margin: 0 auto;
     padding-top: 10px;
   }
+
   .burger-footer_inf {
     text-align: center;
     padding: 5px 0 5px 0;
     color: #bcbcbc;
     font-size: 18px;
   }
+
   .quotes {
     color: #bcbcbc;
     font-size: 24px;
   }
+
   .company-news {
     display: flex;
     justify-content: space-between;
@@ -478,6 +502,7 @@ html {
 
     background: #141414;
   }
+
   .news-items {
     width: 100%;
     display: flex;
@@ -494,22 +519,26 @@ html {
     font-size: 12px;
     color: #bcbcbc;
   }
+
   .company-contacts,
   .company,
   .company-social {
     display: none;
   }
+
   .social-items {
     display: flex;
     justify-content: space-around;
     padding: 15px 15px 15px 15px;
   }
 }
+
 @media screen and (min-width: 769px) {
   .container {
     max-width: 1175px;
     margin: 0 auto;
   }
+
   .navigation {
     display: flex;
     align-items: center;
@@ -517,24 +546,29 @@ html {
     padding: 0 0 185px 0;
     justify-content: space-around;
   }
+
   .menu {
     display: flex;
     justify-content: space-around;
     width: 50%;
   }
+
   .menu-list {
     font-size: 10px;
   }
+
   .content-heading {
     color: #fff;
     font-size: 30px;
     margin-bottom: 30px;
   }
+
   .content-heading_text {
     font-size: 18px;
     color: #d1d1d1;
     margin-bottom: 52px;
   }
+
   .header-content {
     padding-bottom: 202px;
   }
@@ -544,6 +578,7 @@ html {
     margin-left: auto;
     margin-right: 68px;
   }
+
   .header-btn {
     width: 180px;
     height: 55px;
@@ -560,6 +595,7 @@ html {
     color: #fff;
     cursor: pointer;
   }
+
   /* About Us */
   .about-us {
     width: 629px;
@@ -586,6 +622,7 @@ html {
     margin: 0 auto;
     margin-bottom: 95px;
   }
+
   /* Proffesional Skills */
   .skills {
     display: flex;
@@ -674,6 +711,7 @@ html {
     width: 280px;
     height: 3px;
   }
+
   /* Achievements */
   .achievements {
     background: #10c9c3;
@@ -711,6 +749,7 @@ html {
     font-size: 17px;
     padding-bottom: 15px;
   }
+
   /* Work */
   .work {
     margin: 0 auto;
@@ -787,6 +826,7 @@ html {
     filter: grayscale(100%);
     transform: scale(1.03);
   }
+
   /* Work Process */
   .work-process {
     margin-bottom: 100px;
@@ -800,12 +840,14 @@ html {
     text-align: center;
     padding-bottom: 60px;
   }
+
   iframe {
     display: block;
     margin: 0 auto;
     min-width: 900px;
     min-height: 570px;
   }
+
   /* Services */
 
   .services {
@@ -835,6 +877,7 @@ html {
     font-weight: 500;
     color: #787878;
   }
+
   /*  testimonials*/
 
   .testimonials {
@@ -958,6 +1001,7 @@ html {
     background-color: #81ebe7;
     transition: ease-in-out 0.2s;
   }
+
   /* Footer */
   .footer {
     background: #141414;
@@ -1010,6 +1054,7 @@ html {
     color: #bcbcbc;
     font-size: 15px;
   }
+
   .company-social_icons {
     display: none;
   }
@@ -1032,6 +1077,7 @@ html {
 }
 
 @media screen and (min-width: 1025px) {
+
   /* Header Content */
   .content-heading {
     color: #fff;
