@@ -19,27 +19,27 @@ html {
 
 @keyframes slide {
   0% {
-    background-image: url(/images/sliderback/1.jpg);
+    background-image: url(images/sliderback/1.jpg);
   }
 
   20% {
-    background-image: url(/images/sliderback/2.jpg);
+    background-image: url(images/sliderback/2.jpg);
   }
 
   40% {
-    background-image: url(/images/sliderback/3.jpg);
+    background-image: url(images/sliderback/3.jpg);
   }
 
   60% {
-    background-image: url(/images/sliderback/4.jpg);
+    background-image: url(images/sliderback/4.jpg);
   }
 
   80% {
-    background-image: url(/images/sliderback/5.jpg);
+    background-image: url(images/sliderback/5.jpg);
   }
 
   100% {
-    background-image: url(/images/sliderback/6.jpg);
+    background-image: url(images/sliderback/6.jpg);
   }
 }
 
