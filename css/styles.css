@@ -9,15 +9,16 @@ html {
 
 /* Header */
 .background {
+  background-image: url(https://pixabay.com/get/53e4dd4b4f55af14f6d1867dda2937791c3dd8e64e507749762d7ad09e44c0_1920.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   max-width: 2575px;
   margin: 0 auto;
-  animation: slide 30s ease-in-out infinite;
+  /* animation: slide 30s ease-in-out infinite; */
 }
 
-@keyframes slide {
+/* @keyframes slide {
     0% {
       background-image: url(https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     }
@@ -41,7 +42,7 @@ html {
     100% {
       background-image: url(https://images.pexels.com/photos/2433985/pexels-photo-2433985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     }
-}
+} */
 
 .logo {
   display: flex;
