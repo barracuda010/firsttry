@@ -18,29 +18,29 @@ html {
 }
 
 @keyframes slide {
-  0% {
-    background-image: url(/images/sliderback/1.jpg);
-  }
+    0% {
+      background-image: url(https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    }
 
-  20% {
-    background-image: url(/images/sliderback/2.jpg);
-  }
+    20% {
+      background-image: url(https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    }
 
-  40% {
-    background-image: url(/images/sliderback/3.jpg);
-  }
+    40% {
+      background-image: url(https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    }
 
-  60% {
-    background-image: url(/images/sliderback/4.jpg);
-  }
+    60% {
+      background-image: url(https://images.pexels.com/photos/3310691/pexels-photo-3310691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    }
 
-  80% {
-    background-image: url(/images/sliderback/5.jpg);
-  }
+    80% {
+      background-image: url(https://images.pexels.com/photos/370717/pexels-photo-370717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    }
 
-  100% {
-    background-image: url(/images/sliderback/6.jpg);
-  }
+    100% {
+      background-image: url(https://images.pexels.com/photos/2433985/pexels-photo-2433985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    }
 }
 
 .logo {
