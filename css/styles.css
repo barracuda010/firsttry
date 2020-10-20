@@ -110,11 +110,13 @@ html {
   .menu {
     position: absolute;
     right: 0px;
-    height: 91vh;
+    height: 92vh;
     top: 8vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+    background-color: #222222;
     width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
@@ -513,7 +515,6 @@ html {
     min-height: 50px;
     padding: 0 0 185px 0;
     justify-content: space-around;
-    background-image: url(/images/sliderback/2.jpg);
   }
   .menu {
     display: flex;
